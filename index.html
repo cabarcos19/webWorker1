@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lab 3 - CORS</title>
+    <script src="js/cors.js" type="text/javascript" defer></script>
+    <!--script src="js/corsWithWorker.js" type="text/javascript" defer></script-->
+</head>
+<body>
+<header>
+    <h1>CORS</h1>
+    <nav>
+        <-- Navigation -->
+    </nav>
+</header>
+<main>
+    <section id="section1">
+        <br>
+        <button data-url="local.txt" id="b1">B1 - local access</button>
+        <button data-url="https://niede.yaka.fh-joanneum.at/ria/cors/remote.txt" id="b2">B2 - remote access without CORS</button>
+        <button data-url="https://niede.yaka.fh-joanneum.at/ria/cors/remote.php" id="b3">B3 - remote access with CORS</button>
+    </section>
+    <div id="showResult"></div>
+</main>
+<footer>&copy; 2019</footer>
+</body>
+</html>
